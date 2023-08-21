@@ -1,0 +1,74 @@
+[
+    {
+        "key": "security-equipment",
+        "title": "Security Equipment",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "security-guards",
+        "title": "Security Guards Services",
+        "image": "/img/service-1.jpg",
+        "description": "We provide Security Guards Services"
+    },
+    {
+        "key": "security-drivers",
+        "title": "Security Drivers Services",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "security-watch-dogs",
+        "title": "Security Watch Dogs",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "body-guards",
+        "title": "Body Guards Services",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "maintenance",
+        "title": "Maintenance Services",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "warehousing",
+        "title": "Warehousing Services",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "seminar-and-training",
+        "title": "Security Seminars + Workshop / Training Services",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "access-control",
+        "title": "Access Control",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "fire-fighting-equipment",
+        "title": "Fire Fighting Equipment",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "consultancy",
+        "title": "Consultancy",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    },
+    {
+        "key": "facility-management-services",
+        "title": "Facility Management Services",
+        "image": "/img/service-1.jpg",
+        "description": ""
+    }
+]
