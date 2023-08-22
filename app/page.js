@@ -29,7 +29,7 @@ export default function Home() {
             <div id="blog-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="w-100" src="img\guards\guards-securing-building.jpg" alt="Image" />
+                        <img class="w-100" src="img\NNPC deployment Pics 1.jpg" alt="Image" />
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <h4 class="text-white m-0">Premium Security</h4>
                             <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">Best Security Service</h4>
@@ -123,7 +123,7 @@ export default function Home() {
                           <p>We are recognized in the industry as experts</p>
                       </div>
                   </div>
-                  <a href="" class="btn btn-lg px-4 btn-success">Learn More</a>
+                  <Link href="/about" class="btn btn-lg px-4 btn-success">Learn More</Link>
               </div>
           </div>
       </div>
@@ -275,7 +275,7 @@ export default function Home() {
           </form>
       </div>
 
-
+{/* 
       <div class="container-fluid my-5 p-0 py-5" style={{background: "#f6f6f6"}}>
           <div class="container p-0 py-5">
               <div class="d-flex flex-column text-center mb-5">
@@ -330,7 +330,7 @@ export default function Home() {
 
               </div>
           </div>
-      </div>
+      </div> */}
 
       <div id="" class="container" style={{background: "#f6f6f6;"}}>
           <div class="d-flex flex-column text-center mb-5">
@@ -347,11 +347,20 @@ export default function Home() {
                           <div class="fadeIn answer active">
                               <p> We provide you with various security options according to your unique needs. </p>
                               <p> Our Services Include. </p>
-                              <ul>
-                                  <li> Body Guards secuirty</li>
-                                  <li> Location secuirty</li>
-                                  <li> CCTV secuirty and monitoring</li>
-                              </ul>
+                              <ul className="list-disc pl-7">
+                                    <li> Security Equipment </li>
+                                    <li> Security Guards Services </li>
+                                    <li> Security Drivers Services </li>
+                                    <li> Security Watch Dogs </li>
+                                    <li> Body Guards secuirty </li>
+                                    <li> Maintenance Services </li>
+                                    <li> Warehousing Services </li>
+                                    <li> Security Seminars + Workshop & Training Services </li>
+                                    <li> Firefighting Equipment </li>
+                                    <li> Warehousing Services </li>
+                                    <li> Consultancy </li>
+                                    <li> Facility Management Services </li>
+                                </ul>
                           </div>
                       </div>
                   </div>

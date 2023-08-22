@@ -6,8 +6,6 @@ import { usePathname } from "next/navigation"
 export const NavBar = ({ mode,  }) => {
     const route = usePathname()
 
-    
-
     try{
        setTimeout(() => {
         console.log("Router Path ::", route)
@@ -19,7 +17,7 @@ export const NavBar = ({ mode,  }) => {
     return (
         <div class="container-fluid p-0 py-2 nav-bar bg-dark">
             <nav class="navbar navbar-expand-lg bg-none navbar-dark py-0">
-                <a href="" class="navbar-brand d-block d-lg-none">
+                <a href="/" class="navbar-brand d-block d-lg-none">
                     <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-success">Unity</span> Security</h1>
                 </a>
 
@@ -31,7 +29,7 @@ export const NavBar = ({ mode,  }) => {
                     <div class="navbar-nav m-auto py-4">
                         <Link href="/" className={`nav-item ${route === '/' && 'active'} nav-link`}>Home</Link>
                         <Link href="/about" className={`nav-item ${route === '/about' && 'active'} nav-link`}>About</Link>
-                        <Link href="/services" className={`nav-item ${route === '/services' && 'active'} nav-link`}>Services</Link>
+                        <Link href="/services" className={`nav-item ${route.match(/services*/)  && 'active'} nav-link`}>Services</Link>
                         <Link href="/contact" className={`nav-item ${route === '/contact' && 'active'} nav-link`}>Contact</Link>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 import {
@@ -6,6 +7,7 @@ import {
   Footer
 } from '/src/components';
 import Script from 'next/script'
+// import { useEffect } from 'react'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Script src="/lib/jquery/jquery-3.4.1.min.js"></Script>
-
+        
         <meta charset="utf-8" />
         <title>Unity Integrated Security Services Limited</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -32,8 +34,8 @@ export default function RootLayout({ children }) {
         <link href="/img/Unity Logo.png" rel="icon" />
 
         {/* <!-- Font Awesome --> */}
-        {/* <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" /> */}
-        <link href="/lib/fontawesome/all.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+        {/* <link href="/lib/fontawesome/all.min.css" rel="stylesheet" /> */}
 
         {/* <!-- Flaticon Font --> */}
         <link href="/lib/flaticon/font/flaticon.css" rel="stylesheet" />
@@ -57,13 +59,14 @@ export default function RootLayout({ children }) {
 
         <a href="#" class="btn btn-secondary border back-to-top"><i class="fa fa-angle-double-up"></i></a>
       
-        
+        <Script src="/js/main.js"></Script>
         <Script src="/lib/bootstrap/bootstrap.bundle.min.js"></Script>
         <Script src="/lib/easing/easing.min.js"></Script>
         <Script src="/lib/waypoints/waypoints.min.js"></Script>
+
         <Script src="/lib/counterup/counterup.min.js"></Script>
         <Script src="/lib/owlcarousel/owl.carousel.min.js"></Script>
-        <Script src="/js/main.js"></Script>
+        
       
       </body>
     </html>
