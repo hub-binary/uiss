@@ -72,4 +72,25 @@ document.querySelectorAll('.nav-link').forEach(function(elem){
 
         elem.classList.add('active')
     })
-})
+});
+
+
+      
+const faqs = document.querySelectorAll('.faq');
+
+try{
+    faqs.forEach(faq => {
+      const question = faq.querySelector('h3');
+      const answer = faq.querySelector('.answer');
+    
+      faq.addEventListener('click', () => {
+        const active = document.querySelector('.faq.active')
+        if (active){
+            active.classList.remove('active')
+        }
+        answer.classList.toggle('active');
+      });
+    });
+}catch(err){
+    
+}

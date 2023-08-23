@@ -2,20 +2,7 @@
 
 
 export const FAQsPage=()=>{
-     
-    const faqs = document.querySelectorAll('.faq');
-    faqs.forEach(faq => {
-      const answer = faq.querySelector('.answer');
-  
-      faq.addEventListener('click', () => {
-        const active = document.querySelector('.faq.active')
-        if (active){
-            active.classList.remove('active')
-        }
-        answer.classList.toggle('active');
-      });
-    });
-  
+    
     return(
         <div>
             <div class="container-fluid mt-5 pt-5">

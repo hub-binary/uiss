@@ -4,23 +4,6 @@ import Link from 'next/link';
 
 export default function Home() {
 
-      
-  const faqs = document.querySelectorAll('.faq');
-  faqs.forEach(faq => {
-    const question = faq.querySelector('h3');
-    const answer = faq.querySelector('.answer');
-
-    faq.addEventListener('click', () => {
-      const active = document.querySelector('.faq.active')
-      if (active){
-          active.classList.remove('active')
-      }
-      answer.classList.toggle('active');
-    });
-  });
-
-
-
   return (
     <div>
 
