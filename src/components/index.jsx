@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { useRef, useState } from "react"
 
 
 export const NavBar = ({ mode,  }) => {
@@ -161,6 +162,26 @@ export const TopBar = ({ mode, ...props }) => {
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    )
+}
+
+
+export const FAQ =({ question, answer})=>{
+    const faqRef = useRef()
+    const [isOpen, setState] = useState(false)
+
+    const toggleAnswer = (event) =>{
+        faqRef.current.classList.toggle('active')
+        setState(!isOpen)
+    }
+
+    return(
+        <div class="col-lg-6 px-0">
+            <div class="faq card-body shadow-sm border-0 p-3">
+                <h3 onClick={toggleAnswer} class="question">{question} <i className={`ml-3 fa fa-chevron-${isOpen ? "up" : "down"}`}></i></h3>
+                <div ref={faqRef} class="fadeIn answer">{answer}</div>
             </div>
         </div>
     )

@@ -1,6 +1,8 @@
 "use client"
 import servicesData from '/src/data/services.json';
+import {FAQ} from '/src/components';
 import Link from 'next/link';
+
 
 export default function Home() {
 
@@ -324,41 +326,35 @@ export default function Home() {
           <div id="" class="container-fluid mb-5" style={{background: "#f6f6f6;"}}>
               <div class="row align-items-flex">
                   
-                  <div class="col-lg-6 px-0">
-                      <div class="faq card-body shadow-sm border-0 p-3">
-                          <h3 class="question">What type of security do you provide?</h3>
-                          <div class="fadeIn answer active">
-                              <p> We provide you with various security options according to your unique needs. </p>
-                              <p> Our Services Include. </p>
-                              <ul className="list-disc pl-7">
-                                    <li> Security Equipment </li>
-                                    <li> Security Guards Services </li>
-                                    <li> Security Drivers Services </li>
-                                    <li> Security Watch Dogs </li>
-                                    <li> Body Guards secuirty </li>
-                                    <li> Maintenance Services </li>
-                                    <li> Warehousing Services </li>
-                                    <li> Security Seminars + Workshop & Training Services </li>
-                                    <li> Firefighting Equipment </li>
-                                    <li> Warehousing Services </li>
-                                    <li> Consultancy </li>
-                                    <li> Facility Management Services </li>
-                                </ul>
-                          </div>
-                      </div>
-                  </div>
                   
-                  <div class="col-lg-6 px-0">
-                      <div class="faq card-body shadow-sm border-0 p-3">
-                          <h3 class="question">How much does your service cost?</h3>
-                          <div class="fadeIn answer active">
-                              <p>
-                                  Our service fees are affordable and varies depending on your location and scope of the work.
-                              </p>
+                <FAQ
+                    question={"What type of security do you provide?"}
+                    answer={
+                        <div>
+                            <p> We provide you with various security options according to your unique needs. </p>
+                            <p> Our Services Include. </p>
+                            <ul className="list-disc pl-7">
+                                <li> Security Equipment </li>
+                                <li> Security Guards Services </li>
+                                <li> Security Drivers Services </li>
+                                <li> Security Watch Dogs </li>
+                                <li> Body Guards secuirty </li>
+                                <li> Maintenance Services </li>
+                                <li> Warehousing Services </li>
+                                <li> Security Seminars + Workshop & Training Services </li>
+                                <li> Firefighting Equipment </li>
+                                <li> Warehousing Services </li>
+                                <li> Consultancy </li>
+                                <li> Facility Management Services </li>
+                            </ul>
+                        </div>
+                    }
+                />
 
-                          </div>
-                      </div>
-                  </div>
+                            <FAQ 
+                                question={"How much does your service cost?"}
+                                answer={"Our service fees are affordable and varies depending on your location and scope of the work."}
+                            />
                                               
               </div>
           </div>

@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <Script src="/lib/jquery/jquery-3.4.1.min.js"></Script>
+        <script src="/lib/jquery/jquery-3.4.1.min.js"></script>
         
         <meta charset="utf-8" />
         <title>Unity Integrated Security Services Limited</title>
@@ -64,8 +64,8 @@ export default function RootLayout({ children }) {
         <Script src="/lib/easing/easing.min.js"></Script>
         <Script src="/lib/waypoints/waypoints.min.js"></Script>
 
-        <Script src="/lib/counterup/counterup.min.js"></Script>
-        <Script src="/lib/owlcarousel/owl.carousel.min.js"></Script>
+        <script src="/lib/counterup/counterup.min.js"></script>
+        <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
         
       
       </body>

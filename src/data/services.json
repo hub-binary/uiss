@@ -2,7 +2,7 @@
     {
         "key": "security-equipment",
         "title": "Security Equipment",
-        "image": "/img/service-1.jpg",
+        "image": "/img/services/security-gadgets.jpg",
         "description": "Our Security Equipment division provides cutting-edge solutions tailored to fortify your security infrastructure. From advanced surveillance cameras and access control systems to intrusion detection sensors and biometric solutions, we offer a comprehensive range of state-of-the-art security equipment. Our expert team ensures seamless integration and personalized solutions to safeguard your premises, assets, and personnel with precision and confidence."
     },
     {
@@ -20,7 +20,7 @@
     {
         "key": "security-watch-dogs",
         "title": "Security Watch Dogs",
-        "image": "/img/service-1.jpg",
+        "image": "/img/services/watch-dogs.jpg",
         "description": "Our Security Watch Dogs division offers an unmatched layer of protection with specially trained canine teams. These highly skilled dogs, accompanied by our expert handlers, enhance security through their keen senses and instincts. From patrol duties to crowd management, our Security Watch Dogs are an effective asset for comprehensive security solutions."
     },
     {
@@ -50,7 +50,7 @@
     {
         "key": "access-control",
         "title": "Access Control",
-        "image": "/img/service-1.jpg",
+        "image": "/img/services/access-control.jpg",
         "description": ""
     },
     {
