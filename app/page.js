@@ -260,7 +260,7 @@ export default function Home() {
           </form>
       </div>
 
-{/* 
+ 
       <div class="container-fluid my-5 p-0 py-5" style={{background: "#f6f6f6"}}>
           <div class="container p-0 py-5">
               <div class="d-flex flex-column text-center mb-5">
@@ -315,7 +315,7 @@ export default function Home() {
 
               </div>
           </div>
-      </div> */}
+      </div>
 
       <div id="" class="container" style={{background: "#f6f6f6;"}}>
           <div class="d-flex flex-column text-center mb-5">
