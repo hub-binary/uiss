@@ -1,9 +1,6 @@
 "use client"
-import Link from 'next/link';
 import servicesData from '/src/data/services.json';
 import { useParams } from 'next/navigation';
-import Image from 'next/image';
-
 
 export const ServicesPage = ({}) => {
 
@@ -17,10 +14,17 @@ export const ServicesPage = ({}) => {
                     <h1 class="m-0">{service.title}</h1>
                 </div>
 
-                <div className="text-center">
-                    <img src={service.image} height={100} />
+                <div style={{
 
-                    <h5 dangerouslySetInnerHTML={{ __html: service.description }}></h5>
+                }} className="">
+                    <img style={{margin: 'auto'}} src={service.image} height={100} />
+
+                    <p className='text-dark' style={{
+                        padding: '2rem 1rem',
+                        textAlign: 'justify',
+                        lineHeight: '35px',
+                        marginTop: '3rem'
+                    }} dangerouslySetInnerHTML={{ __html: service.description }}></p>
                 </div>
             </div>
 

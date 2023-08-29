@@ -132,14 +132,14 @@ export default function Home() {
                                 <h6 class="card-title text-white  m-0">{service?.title}</h6>
                             </div>
                             <div class="card-footer">
-                                <p className="" style={{
+                                <div className="" style={{
                                     height: '73px',
                                     overflowY: 'hidden',
                                     textOverflow: 'ellipsis',
                                     whitespace: 'nowrap'
-                                    }}> {service?.description} </p>
-
-
+                                    }}
+                                    dangerouslySetInnerHTML={{ __html: service?.description}}
+                                    ></div>
                                 <Link className="btn btn-success ml-0" href={`/services/${service?.key}`}> Learn More </Link>
                             </div>
                         </div>
@@ -266,13 +266,13 @@ export default function Home() {
           </form>
       </div>
 
- 
+{/*  
       <div class="container-fluid my-5 p-0 py-5" style={{background: "#f6f6f6"}}>
           <div class="container p-0 py-5">
-              {/* <div class="d-flex flex-column text-center mb-5">
+              <div class="d-flex flex-column text-center mb-5">
                   <h5 class="text-success mb-3">Testimonial</h5>
                   <h1 class="m-0">What Our Clients Say</h1>
-              </div> */}
+              </div>
 
               <div class="owl-carousel testimonial-carousel">
                   <div class="testimonial-item px-3">
@@ -321,7 +321,7 @@ export default function Home() {
 
               </div>
           </div>
-      </div>
+      </div> */}
 
       <div id="" class="container" style={{background: "#f6f6f6;"}}>
           <div class="d-flex flex-column text-center mb-5">

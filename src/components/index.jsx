@@ -7,14 +7,6 @@ import { useRef, useState } from "react"
 export const NavBar = ({ mode,  }) => {
     const route = usePathname()
 
-    try{
-       setTimeout(() => {
-        console.log("Router Path ::", route)
-       }, 2000)
-    }catch(err){
-        console.log("Error:", err)
-    }
-
     return (
         <div class="container-fluid p-0 py-2 nav-bar bg-dark">
             <nav class="navbar navbar-expand-lg bg-none navbar-dark py-0">

@@ -1,16 +1,12 @@
-
+"use client"
 import './globals.css'
-import { Inter } from 'next/font/google'
 import {
   TopBar,
   NavBar,
   Footer
 } from '/src/components';
 import Script from 'next/script'
-// import { useEffect } from 'react'
 
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Unity Integrated Security Service',
@@ -23,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script src="/lib/jquery/jquery-3.4.1.min.js"></script>
+        <Script src="/lib/jquery/jquery-3.4.1.min.js"></Script>
         
         <meta charset="utf-8" />
         <title>Unity Integrated Security Services Limited</title>
@@ -49,7 +45,7 @@ export default function RootLayout({ children }) {
 
 
 
-      <body className={inter.className}>
+      <body>
         <TopBar />
         <NavBar />
 

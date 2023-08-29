@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link';
 import servicesData from '/src/data/services.json';
 
@@ -23,12 +24,14 @@ export const ServicesPage = ({}) => {
                                         <h6 class="card-title text-white  m-0">{service?.title}</h6>
                                     </div>
                                     <div class="card-footer">
-                                       <p className="" style={{
+                                       <div className="" style={{
                                         height: '73px',
                                         overflowY: 'hidden',
                                         textOverflow: 'ellipsis',
                                         whitespace: 'nowrap'
-                                       }}> {service?.description} </p>
+                                       }} 
+                                       dangerouslySetInnerHTML={{ __html: service?.description}}
+                                       ></div>
 
                                        <Link className="btn btn-success ml-0" href={`/services/${service?.key}`}> Learn More </Link>
                                     </div>
