@@ -8,11 +8,11 @@ import {
 import Script from 'next/script'
 
 
-export const metadata = {
-  title: 'Unity Integrated Security Service',
-  description: "Unity Integrated Security Service Ltd.",
-  icon: "/img/Unity Logo.png"
-}
+// export const metadata = {
+//   title: 'Unity Integrated Security Service',
+//   description: "Unity Integrated Security Service Ltd.",
+//   icon: "/img/Unity Logo.png"
+// }
 
 export default function RootLayout({ children }) {  
   
